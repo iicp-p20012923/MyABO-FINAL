@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1044111479364",
+    "firebase_url": "https://myabo-df61c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "myabo-df61c",
+    "storage_bucket": "myabo-df61c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044111479364:android:6945f418a275feabdfe211",
+        "android_client_info": {
+          "package_name": "com.example.myabo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044111479364-4o9bpoq199as4pppelauhjvjpfn97q9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdNozxnzpebHm8rCgKJ4VVhMDVZpvSaOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044111479364-4o9bpoq199as4pppelauhjvjpfn97q9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

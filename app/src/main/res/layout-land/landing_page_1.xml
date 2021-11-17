@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF826E">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="500dp"
+        android:layout_height="655dp"
+        android:src="@mipmap/ic_launcher_droplets_foreground" />
+
+    <TextView
+        android:id="@+id/donate"
+        android:layout_width="201dp"
+        android:layout_height="306dp"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="106dp"
+        android:gravity="center"
+        android:minEms="100"
+        android:text="Donate Blood and save lives"
+        android:textAlignment="center"
+        android:textSize="20pt" />
+
+
+</RelativeLayout>

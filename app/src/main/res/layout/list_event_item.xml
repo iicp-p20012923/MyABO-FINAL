@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp"
+    app:cardMaxElevation="12dp"
+    app:cardPreventCornerOverlap="true"
+    android:id="@+id/list_event_location_cardview">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="82dp"
+            android:layout_height="207dp"
+            android:layout_alignParentLeft="true"
+            android:padding="10dp"
+            android:paddingLeft="5dp"
+            android:src="@mipmap/ic_hospital_foreground" />
+
+        <TextView
+            android:id="@+id/list_event_item_event_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imageView"
+            android:padding="6dp"
+            android:text="event name"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/list_event_item_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/list_event_item_event_name"
+            android:layout_toRightOf="@id/imageView"
+            android:padding="6dp"
+            android:text="address"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:id="@+id/list_event_item_blood_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/list_event_item_date_time"
+            android:layout_toRightOf="@id/imageView"
+            android:padding="6dp"
+            android:text="blood type"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:id="@+id/list_event_item_contact_no"
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/list_event_item_blood_type"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@id/imageView"
+            android:padding="6dp"
+            android:text="contact no"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:id="@+id/list_event_item_date_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/list_event_item_address"
+            android:layout_toRightOf="@id/imageView"
+            android:padding="6dp"
+            android:text="date and time"
+            android:textSize="16dp" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

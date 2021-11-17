@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="20dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="10dp"
+    app:cardMaxElevation="12dp"
+    app:cardPreventCornerOverlap="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.454"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.441">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/history_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            tools:text="Status(gan jue ke yi dw)"
+            android:padding="4dp"/>
+
+        <TextView
+            android:id="@+id/history_event_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/history_status"
+            android:padding="4dp"
+            android:textStyle="bold"
+            tools:text="Event Name" />
+
+        <TextView
+            android:id="@+id/history_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/history_status"
+            android:layout_below="@id/history_event_name"
+            android:padding="4dp"
+            tools:text="Date: "
+            />
+
+        <TextView
+            android:id="@+id/history_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/history_status"
+            android:layout_below="@id/history_date"
+            android:padding="4dp"
+            tools:text="Amount: "
+            />
+
+        <TextView
+            android:id="@+id/history_bp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/history_status"
+            android:layout_below="@id/history_amount"
+            android:padding="4dp"
+            tools:text="Blood Pressure: "
+            />
+
+        <TextView
+            android:id="@+id/history_bo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/history_status"
+            android:layout_below="@id/history_bp"
+            android:padding="4dp"
+            tools:text="Blood Oxygen: "
+            />
+
+        <TextView
+            android:id="@+id/history_remark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/history_status"
+            android:layout_below="@id/history_bo"
+            android:padding="4dp"
+            tools:text="Remark: "
+            />
+
+        <TextView
+            android:id="@+id/history_bsn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/history_status"
+            android:layout_below="@id/history_remark"
+            android:padding="4dp"
+            tools:text="Blood Serial No. "
+            />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="600dp"
+        android:layout_height="348dp"
+        android:layout_alignParentBottom="true"
+        android:src="@mipmap/ic_launcher_hand_love_foreground" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="257dp"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="185dp"
+        android:layout_marginRight="20dp"
+        android:text="Your donation impacts lives"
+        android:textAlignment="textEnd"
+        android:textColor="#CC0000"
+        android:textSize="20pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/MyABO"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/text1"
+        android:layout_marginLeft="269dp"
+        android:layout_marginTop="-87dp"
+        android:layout_marginRight="20dp"
+        android:text="- MyABO"
+        android:textAlignment="textEnd"
+        android:textColor="#CC0000"
+        android:textSize="13pt" />
+
+
+</RelativeLayout>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:fillViewport="true"
+            android:animateLayoutChanges="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <TableLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:isScrollContainer="true"
+                    android:padding="10dip">
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#cb0101">
+
+                        <TextView
+                            android:layout_weight="4"
+                            android:gravity="center_horizontal"
+                            android:text="Kekerapan Menderma"
+                            android:textColor="@color/white"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_weight="4"
+                            android:gravity="center_horizontal"
+                            android:text="Keistimewaan Rawatan"
+                            android:textColor="@color/white"
+                            android:textSize="18dp"
+                            android:textStyle="bold" />
+
+
+                    </TableRow>
+
+                    <!-- Table Data1-->
+                    <TableRow>
+
+                        <TextView
+                            android:layout_weight="20"
+                            android:gravity="center_horizontal"
+                            android:text="1 Kali"
+                            android:textSize="18dp"
+                            android:paddingTop="5dp"/>
+
+                        <TextView
+                            android:ems="10"
+                            android:text="Percuma rawatan pesakit luar dan rawatan perubatan (tidak termasuk bayaran X-ray dan pembedahan) dan wad kelas dua untuk tempoh *4 bulan."
+                            android:textSize="18dp"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"/>
+
+                    </TableRow>
+
+                    <View
+                        android:layout_height="2dp"
+                        android:background="@color/black" />
+                    <!-- Table Data2 -->
+                    <TableRow
+                        android:paddingTop="5dp">
+
+                        <TextView
+                            android:layout_weight="20"
+                            android:gravity="center_horizontal"
+                            android:text="2 - 5 Kali"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:ems="10"
+                            android:text="Percuma rawatan pesakit luar dan rawatan perubatan dan wad kelas dua untuk *4 bulan. Percuma bagi pelalian Hepatitis B."
+                            android:textSize="18dp"
+                            android:paddingBottom="5dp"/>
+
+                    </TableRow>
+
+                    <View
+                        android:layout_height="2dp"
+                        android:background="@color/black" />
+
+                    <!-- Table Data3-->
+                    <TableRow
+                        android:paddingTop="5dp">
+
+                        <TextView
+                            android:layout_weight="20"
+                            android:gravity="center_horizontal"
+                            android:text="6 - 10 Kali"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:ems="10"
+                            android:text="Percuma rawatan pesakit luar *1 tahun dan rawatan perubatan kelas dua *6 bulan."
+                            android:textSize="18dp"
+                            android:paddingBottom="5dp"/>
+
+                    </TableRow>
+
+                    <View
+                        android:layout_height="2dp"
+                        android:background="@color/black" />
+
+                    <!-- Table Data4 -->
+                    <TableRow
+                        android:paddingTop="5dp">
+
+                        <TextView
+                            android:layout_weight="20"
+                            android:gravity="center_horizontal"
+                            android:text="11 - 15 Kali"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:ems="10"
+                            android:text="Percuma rawatan pesakit luar *2 tahun dan rawatan perubatan dan wad kelas dua untuk *1 tahun."
+                            android:textSize="18dp"
+                            android:paddingBottom="5dp"/>
+
+                    </TableRow>
+
+                    <View
+                        android:layout_height="2dp"
+                        android:background="@color/black" />
+
+                    <!-- Table Data5 -->
+                    <TableRow
+                        android:paddingTop="5dp">
+
+                        <TextView
+                            android:layout_weight="20"
+                            android:gravity="center_horizontal"
+                            android:text="16 - 20 Kali"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:ems="10"
+                            android:text="Percuma rawatan pesakit luar dan rawatan perubatan wad kelas dua untuk *2 tahun."
+                            android:textSize="18dp"
+                            android:paddingBottom="5dp"/>
+
+                    </TableRow>
+
+                    <View
+                        android:layout_height="2dp"
+                        android:background="@color/black" />
+
+                    <!-- Table Data6 -->
+                    <TableRow
+                        android:paddingTop="5dp">
+
+                        <TextView
+                            android:layout_weight="20"
+                            android:gravity="center_horizontal"
+                            android:text="21 - 30 Kali"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:ems="10"
+                            android:text="Percuma rawatan pesakit luar dan rawatan perubatan wad kelas dua untuk *3 tahun."
+                            android:textSize="18dp"
+                            android:paddingBottom="5dp"/>
+
+                    </TableRow>
+
+                    <View
+                        android:layout_height="2dp"
+                        android:background="@color/black" />
+
+                    <!-- Table Data7 -->
+                    <TableRow
+                        android:paddingTop="5dp">
+
+                        <TextView
+                            android:layout_weight="20"
+                            android:gravity="center_horizontal"
+                            android:text="31 - 40 Kali"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:ems="10"
+                            android:text="Percuma rawatan pesakit luar dan rawatan perubatan wad kelas dua untuk *4 tahun."
+                            android:textSize="18dp"
+                            android:paddingBottom="5dp"/>
+
+                    </TableRow>
+
+                    <View
+                        android:layout_height="2dp"
+                        android:background="@color/black" />
+
+                    <!-- Table Data8 -->
+                    <TableRow
+                        android:paddingTop="5dp">
+
+                        <TextView
+                            android:layout_weight="20"
+                            android:gravity="center_horizontal"
+                            android:text="41 - 50 Kali"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:ems="10"
+                            android:text="Percuma rawatan pesakit luar dan rawatan perubatan wad kelas dua untuk *6 tahun.
+    "
+                            android:textSize="18dp"
+                            android:paddingBottom="5dp"/>
+
+                    </TableRow>
+
+                    <View
+                        android:layout_height="2dp"
+                        android:background="@color/black" />
+
+                    <!-- Table Data9 -->
+                    <TableRow
+                        android:paddingTop="5dp">
+
+                        <TextView
+                            android:layout_weight="20"
+                            android:gravity="center_horizontal"
+                            android:text="Lebih 50 Kali"
+                            android:textSize="18dp" />
+
+                        <TextView
+                            android:ems="10"
+                            android:text="Percuma rawatan pesakit luar dan rawatan perubatan wad kelas dua untuk *10 tahun."
+                            android:textSize="18dp"
+                            android:paddingBottom="20dp"/>
+
+                    </TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rujukan: (30) dlm. KKM-203/42 bertarikh 15 Julai 1996"
+                        android:textSize="16dp"
+                        android:gravity="center"
+                        android:paddingBottom="20dp"/>
+                </TableLayout>
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

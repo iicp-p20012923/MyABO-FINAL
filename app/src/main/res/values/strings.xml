@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">MyABO</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="state">
+        <item>All</item>
+        <item>Johor</item>
+        <item>Kedah</item>
+        <item>Kelantan</item>
+        <item>Melaka</item>
+        <item>Negeri Sembilan</item>
+        <item>Pahang</item>
+        <item>Pulau Pinang</item>
+        <item>Perak</item>
+        <item>Perlis</item>
+        <item>Sabah</item>
+        <item>Sarawak</item>
+        <item>Selangor</item>
+        <item>Terengganu</item>
+
+
+    </string-array>
+
+
+</resources>
