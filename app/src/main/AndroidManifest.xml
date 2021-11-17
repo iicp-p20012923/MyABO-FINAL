@@ -15,17 +15,15 @@
 
         <activity android:name=".MainActivity" />
 
-        <activity android:name=".RegisterActivity">
-
-        </activity>
-        <activity android:name=".LoginActivity" >
+        <activity android:name=".RegisterActivity"/>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".LandingPage1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LandingPage1"/>
         <activity android:name=".LandingPage2" />
 
         <meta-data
